@@ -22,7 +22,7 @@
 
 ## Links
 
-You may see the APP on Google Play [Queen Bee-養蜂人日誌](https://play.google.com/store/apps/details?id=com.top.queenbee).
+You may see this APP on Google Play [Queen Bee-養蜂人日誌](https://play.google.com/store/apps/details?id=com.top.queenbee).
 
 
 ## Images
