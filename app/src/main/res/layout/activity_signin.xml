@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".signin">
+
+    <ImageView
+        android:id="@+id/titlepic"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="78dp"
+        android:src="@drawable/b0" />
+
+    <TextView
+        android:id="@+id/tsignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titlepic"
+        android:layout_centerHorizontal="true"
+        android:text="Sign In"
+        android:textColor="#764B09"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tsign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tsignin"
+        android:layout_centerHorizontal="true"
+        android:text="會員登入"
+        android:textColor="#764B09"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edblank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tsign"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/edaccount"
+        android:hint="帳號名稱"
+        android:layout_below="@+id/edblank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edcode"
+        android:hint="密碼"
+        android:layout_below="@+id/edaccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <CheckBox
+        android:id="@+id/cbremember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edcode"
+        android:layout_centerHorizontal="true"
+        android:text="記住帳號密碼" />
+
+    <RelativeLayout
+        android:layout_below="@+id/cbremember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="還未註冊嗎?"
+                android:textSize="18sp" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/ibreg"
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:background="#FFFFFF" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="註冊"
+                    android:textColor="#00BCD4"
+                    android:textSize="18sp" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btncancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="結束"
+        android:textSize="20sp"
+        app:backgroundTint="#FFDE59" />
+    <Button
+        android:id="@+id/btnconfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="登入"
+        android:textSize="20sp"
+        app:backgroundTint="#FFDE59" />
+
+
+
+</RelativeLayout>

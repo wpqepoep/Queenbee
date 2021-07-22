@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckground4"
+    tools:context=".detail">
+
+    <TextView
+        android:id="@+id/tname"
+        android:layout_width="150dp"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/calendarView"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="25sp"
+        android:textColor="#764B09" />
+
+    <CalendarView
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="326dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnbee"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/calendarView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/bee"
+        app:backgroundTint="@null" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnbee"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-45dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginRight="75dp">
+
+        <ImageButton
+            android:id="@+id/ibbee"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="@drawable/dialog"
+            android:backgroundTint="#FFDE59" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="20dp"
+            android:textSize="12sp"
+            android:text="蜂王週期紀錄"
+            android:textColor="#764B09"
+            android:layout_marginLeft="15dp" />
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp">
+
+        <Button
+            android:id="@+id/btnanalyse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分析"
+            android:textSize="20sp"
+            android:background="#FFDE59"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btntask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:text="今日任務"
+            android:textSize="20sp"
+            android:background="#FFDE59"
+            android:textColor="#FFFFFF"/>
+    </RelativeLayout>
+</RelativeLayout>

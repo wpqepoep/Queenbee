@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.top.queenbee">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QueenBee">
+        <activity android:name=".qbupdate"></activity>
+        <activity android:name=".qbdetail" />
+        <activity android:name=".queenbee" />
+        <activity android:name=".Search" />
+        <activity android:name=".Analysis" />
+        <activity android:name=".AddDataActivity" />
+        <activity android:name=".UpdateActivity" />
+        <activity android:name=".home" />
+        <activity android:name=".detail" />
+        <activity android:name=".signin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
