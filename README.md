@@ -7,6 +7,10 @@
 * 使用ArrayList動態陣列將資料顯示於Listview上
 * 有新增、修改、查詢功能
 
+## 連結
+
+此 APP 已在 Google Play [Queen Bee-養蜂人日誌](https://play.google.com/store/apps/details?id=com.top.queenbee).
+
 # Introduction
 
 ## Fuction
@@ -16,6 +20,16 @@
 * Using ArrayList to show data on Listview
 * Enabe to Insert/Update/Search data 
 
+## Links
+
+You may see the APP on Google Play [Queen Bee-養蜂人日誌](https://play.google.com/store/apps/details?id=com.top.queenbee).
+
 
 ## Images
-![GITHUB]( https://upload.cc/i1/2021/07/22/hkzOp2.png)
+![GITHUB](https://upload.cc/i1/2021/07/22/t0LBNa.png)
+![GITHUB](https://upload.cc/i1/2021/07/22/rAa75e.png)
+![GITHUB](https://upload.cc/i1/2021/07/22/dzmAtQ.png)
+![GITHUB](https://upload.cc/i1/2021/07/22/jsJxTO.png)
+![GITHUB](https://upload.cc/i1/2021/07/22/D0vO61.png)
+![GITHUB](https://upload.cc/i1/2021/07/22/IloQZG.png)
+
